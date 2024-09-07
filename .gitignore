@@ -1,0 +1,20 @@
+# Diretórios e arquivos a serem ignorados pelo Git
+
+# Diretórios de dependências
+node_modules/
+.pnpm/
+ 
+# Diretórios de cobertura de testes
+coverage/
+
+# Arquivos de lock do gerenciador de pacotes
+pnpm-lock.yaml
+
+# Outros arquivos a serem ignorados
+*.log
+*.tmp
+
+# Configurações de IDE e editores
+.idea/
+.vscode/
+.DS_Store
